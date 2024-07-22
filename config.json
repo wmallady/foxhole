@@ -1,23 +1,25 @@
 {
   "ascii": [
-    "███████╗██╗  ██╗███████╗██╗     ██╗",
-    "██╔════╝██║  ██║██╔════╝██║     ██║",
-    "███████╗███████║█████╗  ██║     ██║",
-    "╚════██║██╔══██║██╔══╝  ██║     ██║",
-    "███████║██║  ██║███████╗███████╗███████╗",
-    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
+    " _____ _           ______          _   _       _      ",
+    "|_   _| |          |  ___|        | | | |     | |     ",
+    "  | | | |__   ___  | |_ _____  __ | |_| | ___ | | ___ ",
+    "  | | | '_ \\ / _ \\ |  _/ _ \\ \\/ / |  _  |/ _ \\| |/ _ \\",
+    "  | | | | | |  __/ | || (_) >  <  | | | | (_) | |  __/",
+    "  \\_/ |_| |_|\\___| \\_| \\___/_/\\_\\ \\_| |_|\\___/|_|\\___|"                                       
+                                                       
+ 
   ],
   "title": "WebShell",
   "username": "visitor",
-  "hostname": "webshell",
-  "password": "050823",
+  "hostname": "foxhole",
+  "password": "",
   "repoLink": "https://github.com/nasan016/webshell",
   "social": {
-    "email": "your@email.com",
-    "github": "yourgithub",
-    "linkedin": "you"
+    "email": "wmallady@gmail.com",
+    "github": "github.com/wmallady",
+    "linkedin": "https://www.linkedin.com/in/william-mallady-45914816a/"
   },
-  "aboutGreeting": "Hi stranger. Welcome to WebShell.",
+  "aboutGreeting": "Hi stranger. Welcome to my corner of the internet.",
   "projects": [
     [
       "GofeR",
@@ -31,15 +33,15 @@
     ]
   ],
   "colors": {
-    "background": "#0C0623",
+    "background": "#282828",
     "foreground": "#F8DDE5",
-    "banner": "#FF9951",
+    "banner": "#bfa2c8",
     "border": {
       "visible": true,
-      "color": "#FFADE2"
+      "color": "#66ff66"
     },
     "prompt": {
-      "default": "#A5A7A7",
+      "default": "#66ff66",
       "user": "#FE6BC9",
       "host": "#70FDFF",
       "input": "#FF7685"
@@ -50,7 +52,7 @@
       "highlightText": "#0C0623"
     },
     "commands": {
-      "textColor": "#FD9BDB"
+      "textColor": "#66ff66"
     }
   }
 }
