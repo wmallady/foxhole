@@ -12,39 +12,40 @@
   "title": "The Fox Hole",
   "username": "visitor",
   "hostname": "foxhole",
-  "password": "",
-  "repoLink": "https://github.com/nasan016/webshell",
+  "password": "sudontgohere",
+  "repoLink": "https://github.com/wmallady/foxhole",
   "social": {
     "email": "wmallady@gmail.com",
-    "github": "github.com/wmallady",
-    "linkedin": "https://www.linkedin.com/in/william-mallady-45914816a/"
+    "github": "wmallady",
+    "linkedin": "william-mallady-45914816a",
+    "flickr": "201123648@N06/"
   },
-  "aboutGreeting": "Hi stranger. Welcome to my corner of the internet.",
+  "aboutGreeting": "Hello stranger. Welcome to my corner of the internet.",
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
+      "Comms-Hub",
+      "Mass Communication Application developed for Business Use",
+      "https://github.com/wmallady/comms-hub"
     ],
     [
-      "WebShell",
+      "The Fox Hole",
       "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "https://github.com/wmallady/foxhole"
     ]
   ],
   "colors": {
     "background": "#282828",
     "foreground": "#F8DDE5",
-    "banner": "#bfa2c8",
+    "banner": "orange",
     "border": {
       "visible": true,
-      "color": "#66ff66"
+      "color": "orange"
     },
     "prompt": {
       "default": "#66ff66",
       "user": "#FE6BC9",
-      "host": "#70FDFF",
-      "input": "#FF7685"
+      "host": "orange",
+      "input": "orange"
     },
     "link": {
       "text": "#B6AAEE",

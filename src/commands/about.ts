@@ -8,10 +8,12 @@ const createAbout = () : string[] => {
   const EMAIL = "Email";
   const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
+  const FLICKR = "Flickr"
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const flickr = `<i class='fa fa-flickr'></i> ${FLICKR}`; 
   let string = "";
 
   about.push("<br>");
@@ -35,6 +37,13 @@ const createAbout = () : string[] => {
   string += linkedin;
   string += SPACE.repeat(17 - LINKEDIN.length);  
   string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
+  string += flickr;
+  string += SPACE.repeat(17 - FLICKR.length);  
+  string += `<a target='_blank' href='https://www.flickr.com/photos/${command.social.flickr}'>flickr/william-mallady</a>`;
   about.push(string);
 
   about.push("<br>");

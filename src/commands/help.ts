@@ -2,11 +2,11 @@ const helpObj = {
   "commands": [
     [
     "'about'",
-    "Who made this website?",
+    "Social Links",
     ],
     [
       "'projects'",
-      "Maybe there's something interesting."
+      "Small examples of what I have built"
     ],
     [
       "'whoami'",

@@ -1,28 +1,29 @@
 const whoamiObj = {
-  "message" : [
+  "message": [
     [
-      "In the kaleidoscope of existence,",
-      "I am but a reflection questioning the enigma - "
+      "In the digital weave of existence,",
+      "I am a coder crafting solutions,",
+      "exploring the analog and the digital realms - "
     ],
     [
-      "Amidst cosmic whispers,",
-      "I navigate the maze of self-discovery,",
-      "echoing the eternal refrain - "
+      "Amidst the hum of shortwave signals,",
+      "I navigate the frequencies of innovation,",
+      "while finding joy in vintage tones - "
     ],
     [
-      "In the symphony of life,",
-      "I am a note inquiring its own melody,",
-      "harmonizing with the universal query - ",
+      "In the narrative of my journey,",
+      "I am a storyteller with a camera and a pen,",
+      "capturing moments and memories - "
     ],
     [
-      "As stardust contemplating its journey,",
-      "I ponder the cosmic query,",
-      "silently asking - ",
+      "As stardust entwined with circuits,",
+      "I ponder the intersections of technology and tradition,",
+      "quietly seeking balance between the analog and the digital - "
     ],
     [
-      "In the tapestry of reality,",
-      "I am the thread of self-inquiry,",
-      "weaving through the eternal question - "
+      "In the mosaic of passions and pursuits,",
+      "I am a thread of curiosity and creativity,",
+      "weaving through the pages of life - "
     ],
   ],
 }
