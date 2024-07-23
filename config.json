@@ -21,6 +21,8 @@
     "flickr": "201123648@N06/"
   },
   "aboutGreeting": "Hello stranger. Welcome to my corner of the internet.",
+  "bioGreeting": "A little about myself ::: ",
+  "cvGreeting":"My work experience ::: ",
   "projects": [
     [
       "Comms-Hub",

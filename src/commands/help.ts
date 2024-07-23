@@ -2,18 +2,18 @@ const helpObj = {
   "commands": [
     [
     "'about'",
-    "Social Links",
+    "Social Links.",
     ],
     [
       "'projects'",
-      "Small examples of what I have built"
+      "Small examples of what I have built."
     ],
     [
       "'whoami'",
       "A perplexing question."
     ],
-    ["'sudo'",
-      "???"
+    ["'bio'",
+      "Short biography."
     ],
     [
       "'repo'",
@@ -25,6 +25,10 @@ const helpObj = {
     [
       "'clear'",
       "Clear the terminal."
+    ],
+    [
+      "'cv'",
+      "View my Resume."
     ]
   ],
 }

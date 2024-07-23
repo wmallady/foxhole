@@ -46,7 +46,7 @@ const createAbout = () : string[] => {
   string += `<a target='_blank' href='https://www.flickr.com/photos/${command.social.flickr}'>flickr/william-mallady</a>`;
   about.push(string);
 
-  return about
+  return about;
 }
 
 export const ABOUT = createAbout();

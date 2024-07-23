@@ -5,7 +5,8 @@ import { ABOUT } from "./commands/about"
 import { DEFAULT } from "./commands/default";
 import { PROJECTS } from "./commands/projects";
 import { createWhoami } from "./commands/whoami";
-
+import { BIO } from './commands/bio';
+import { CV } from './commands/cv';
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
 let historyIdx = 0
@@ -28,7 +29,7 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
+const COMMANDS = ["help", "about", "projects", "whoami","bio", "repo", "banner", "clear","cv"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
@@ -230,14 +231,17 @@ function commandHandler(input : string) {
         window.open(REPO_LINK, '_blank');
       }, 500);
       break;
-    case 'linkedin':
-      //add stuff here
+    case 'bio':
+      writeLines(BIO);
       break;
-    case 'github':
-      //add stuff here
+    case 'cv':
+      writeLines(CV);
       break;
     case 'email':
       //add stuff here
+      break;
+    case 'meow':
+
       break;
     case 'rm -rf':
       if (bareMode) {
