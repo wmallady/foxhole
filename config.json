@@ -24,7 +24,7 @@
   "projects": [
     [
       "Comms-Hub",
-      "Mass Communication Application developed for Business Use",
+      "Mass Communication Application developed for Business Use.",
       "https://github.com/wmallady/comms-hub"
     ],
     [
@@ -53,7 +53,7 @@
       "highlightText": "#0C0623"
     },
     "commands": {
-      "textColor": "#66ff66"
+      "textColor": "orange"
     }
   }
 }
