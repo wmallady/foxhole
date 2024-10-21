@@ -6,21 +6,21 @@
     <description>Recent content on foxhole</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Oct 2024 11:15:29 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 13:03:23 -0400</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>/about/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you need to reach me: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt; [GitHub][https://github.com/wmallady]&#xA; [LinkedIn][https://www.linkedin.com/in/william-mallady-45914816a/]&#xA; [Mastodon][https://mastodon.social/@FoxTheHuman]&#xA; [Resume][https://github.com/wmallady/resume]&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you need to reach me: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;a href=&#34;https://github.com/wmallady&#34;&gt;GitHub&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&#xA; &lt;a href=&#34;https://www.linkedin.com/in/william-mallady-45914816a/&#34;&gt;LinkedIn&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&#xA; &lt;a href=&#34;https://mastodon.social/@FoxTheHuman&#34;&gt;Mastodon&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&#xA; &lt;a href=&#34;https://github.com/wmallady/resume&#34;&gt;Resume&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Warsaw, Poland</title>
-      <link>/photos/warsaw-poland/</link>
+      <title>Hugo Site CI/CD</title>
+      <link>/posts/projects/hugo_cicd/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/photos/warsaw-poland/</guid>
-      <description>&lt;p&gt;this is where landscapes reside.&lt;/p&gt;</description>
+      <guid>/posts/projects/hugo_cicd/</guid>
+      <description>&lt;p&gt;the goal: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful &lt;a href=&#34;https://manual.uberspace.de/&#34;&gt;documentation&lt;/a&gt;, nothing seemed to work for me correctly. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>welcome</title>
@@ -35,20 +35,6 @@
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/photos/pets/</guid>
       <description>&lt;p&gt;I sincerely enjoy taking photographs of pets. I find they often like posing.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hel, Poland</title>
-      <link>/photos/hel-poland-3/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/photos/hel-poland-3/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Hel_Peninsula&amp;amp;oldid=939640541&#34;&gt;Hel Peninsula&lt;/a&gt; (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea.&#xA;The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>/posts/projects/</link>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/posts/projects/</guid>
-      <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

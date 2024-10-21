@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>foxhole/posts/projects/hugo_cicd/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="Hugo Site CI/CD" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/projects/hugo_cicd/" /><meta property="article:published_time" content="2024-10-21T00:00:00+00:00" />
+
+
+
+<meta name="twitter:title" content="Hugo Site CI/CD"/>
+<meta name="twitter:description" content="the goal: 
+ build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser.  
+despite the numerous guides online, including in uberspace&rsquo;s wonderful documentation, nothing seemed to work for me correctly. "/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="/" class="no-style site-name">foxhole</a>:~# 
+              <a href='/postsprojectshugo_cicd'>postsprojectshugo_cicd</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="/posts/" typeof="ListItem">posts/</a></li>
+                
+                <li><a href="/photos/" typeof="ListItem">photos/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>Hugo Site CI/CD</h1>
+
+Oct. 21, 2024
+
+
+<br/><br/>
+<p>the goal: <!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. <!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>despite the numerous guides online, including in uberspace&rsquo;s wonderful <a href="https://manual.uberspace.de/">documentation</a>, nothing seemed to work for me correctly. <!-- raw HTML omitted --></p>
+<p>what I ended up going with was an amalgam of different approaches, and I will outline them coherently here. <!-- raw HTML omitted --></p>
+<p>Use this as a start, and create a md file with the following information. please do not capitalize except the word &ldquo;I&rdquo;.</p>
+<hr>
+<h3 id="step-1-create-an-uberspace-asteroid-at-uberspacehttpsuberspacedeen">step 1.) create an uberspace asteroid at <a href="https://uberspace.de/en/">uberspace</a></h3>
+<p>thanks to uberspace for providing the tools to get this done! they are wonderful, and you can get a virtual linux machine running in a few minutes. for free! (for 30-60 days) - and pay as you want after that.</p>
+<p>simply sign up for an account, and then fill in a name in the &lsquo;create a new asteroid&rsquo; box. save this name for later, it will be your username when logging into this server.</p>
+<hr>
+<h3 id="step-2-login-to-your-uberspace-asteroid">step 2.) login to your uberspace asteroid</h3>
+<p>click into your asteroid from the uberspace dashboard. click on the &rsquo;logins&rsquo; tab.</p>
+<p>here, you can choose to set a basic password to quickly log into your uberspace if you want. this is what I did the first time I logged in.</p>
+<p>you may feel like skipping this step and going straight to generating an ssh key pair. this is OK.</p>
+<hr>
+<h3 id="step-3-generate-an-ssh-key-pair-to-use-with-github-actions">step 3.) generate an ssh key pair to use with github actions.</h3>
+<p><!-- raw HTML omitted -->on your local machine:<!-- raw HTML omitted --><br>
+I found the following command <a href="https://zellwk.com/blog/github-actions-deploy/">here</a>:</p>
+<p><code>ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</code></p>
+<p>which worked for me when generating a key. apparently, github actions does not like keys in the ed25519 format for key encryption. in 2024, this may have changed, but this is what worked for me after many, many attempts at authentication.</p>
+<p>you will be prompted to name your key. I named it &lsquo;github_actions&rsquo; to differentiate it.</p>
+<p>you will also be prompted to enter a password for the private key. <!-- raw HTML omitted --> DO NOT<!-- raw HTML omitted --> enter a password here, github actions will be unable to enter it later. This <!-- raw HTML omitted -->will<!-- raw HTML omitted --> cause you many, many headaches if misconfigured.</p>
+<p>once this is done, enter the following command and copy the <!-- raw HTML omitted -->whole output<!-- raw HTML omitted -->:</p>
+<p><code>cat github_actions.pub</code></p>
+<p>this is your public key. now navigate to your uberspace&rsquo;s asteroid dashboard (the same place you may have entered your password in step 2).</p>
+<p>paste the contents of the public key into the &lsquo;add a public ssh key&rsquo; and press the &lsquo;go&rsquo; button.</p>
+<hr>
+<h3 id="step-4-creating-the-hugo-site">step 4.) creating the hugo site.</h3>
+<p>if you haven&rsquo;t already installed hugo on your system, please follow the instructions outlined <a href="https://gohugo.io/installation/">here</a>. select your appropriate computing system and follow the instructions to install the hugo cli.</p>
+<p>building a hugo site can be done with one simple command:</p>
+<p><code> hugo new site example-site</code></p>
+<p>where example-site is your desired site name. keep in mind, it will create a subfolder named &rsquo;example-site&rsquo; in the directory you are currently in.</p>
+<p>you can now <code>cd</code> into the example-site directory: <code>cd example-site</code></p>
+<p>now, initialize a git repository: <code>git init</code></p>
+<p>and next, you must choose a theme. hugo has an excellent selection of themes to pick from <a href="https://themes.gohugo.io/">on their site</a>. pick one that appeals to you and follow the instructions to install it. generally, it will be something like (I used the console theme):</p>
+<p><code>git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console</code></p>
+<p>there may be additional steps to this setup, like overriding your <code>hugo.toml</code> file. follow the instructions relevant to the theme you chose.</p>
+<p>note: if you are installing on uberspace (and we are), you must add the following to your config.yml file as well:</p>
+<p><code>hugo_cache = '/home/USER/tmp'</code>
+<code>publishDir = '/var/www/virtual/USER/html'</code></p>
+<p>where USER is the name of your asteroid from earlier.</p>
+<p>while you&rsquo;re at it, change the baseURL to be blank for now, if you&rsquo;re not using a subdomain: <code>baseURL=''</code></p>
+<p>once you have properly configured the theme, you can test your site with the command: <code>hugo serve</code></p>
+<p>this will open your hugo site at the localhost address provided in the command output.</p>
+<p>make sure the navigation works and the pictures and text display correctly.</p>
+<p>if you like what you see, we can proceed with creating the &lsquo;public&rsquo; folder by using the command:<code>hugo</code></p>
+<p>note: this command <!-- raw HTML omitted -->should<!-- raw HTML omitted --> work for you. personally, I have to use the command <code>hugo -d public</code></p>
+<p>to force it to build in the public folder.</p>
+<hr>
+<h3 id="step-5-create-the-github-repo">step 5.) create the github repo</h3>
+<p>you can do this one of two ways: using the command line, or using the GUI at github.com.</p>
+<p>if you use the github cli, you can use the <a href="https://cli.github.com/manual/gh_repo_create">instructions</a> to create a new repository.</p>
+<p>if you use the website GUI, navigate to the green &rsquo;new&rsquo; button in the upper right and follow the prompts to create a new repository. once you have created the repo, you can get its address by using the green &lsquo;code&rsquo; button where the &rsquo;new&rsquo; button was before. this will give you a github address, copy this and save it.</p>
+<p>now go back to the folder you created on your local machine with hugo (example-site). make sure you are in the same directory as the git repository you generated.</p>
+<p>now input the following command: <code>git remote add origin https://github.com/USER/example-site.git</code></p>
+<p>where USER and example-site are your github username, and repo name respectively. you should have this address copied from the &lsquo;code&rsquo; button on github.</p>
+<p>now line up your changes with <code>git commit . -m 'some commit message'</code></p>
+<p>once you have committed these changes, push them with <code>git push</code></p>
+<p>you may have to configure your git username and email. follow the onscreen prompts to do so.</p>
+<hr>
+<h3 id="step-6-configure-github-actions">step 6.) configure github actions</h3>
+<p>almost there! now that you git push&rsquo;d the changes, you can check on github to make sure the changes are reflected there. pull up the url you saved earlier (<a href="https://github.com/USER/example-site.git">https://github.com/USER/example-site.git</a>) and see if the repo has filled.</p>
+<p>hopefully, everything went smooth and you have files in your github repo.</p>
+<p>now go to the &lsquo;actions&rsquo; tab at the top of your repo. you can click the link to manually add a file, and paste the following:</p>
+<pre tabindex="0"><code>name: deploy example-site 
+    on: push: 
+    branches: [master] 
+jobs: 
+    build-and-deploy: 
+        runs-on: ubuntu-latest 
+            steps: 
+            - uses: actions/checkout@v4 
+            - name: Deploy using Rsync 
+                uses: burnett01/rsync-deployments@6.0.0 
+                with: switches: -avrh --delete 
+                path: ./public/ 
+                remote_path: /var/www/virtual/${{ vars.UBERSPACE_USER }}/html 
+                remote_host: ${{ vars.UBERSPACE_HOST }} 
+                remote_user: ${{ vars.UBERSPACE_USER }} 
+                remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+</code></pre><p>alternatively, in your project&rsquo;s directory on your local machine, you may create a directory structure like <code>.github/workflows</code>. then create a file called &lsquo;deploy.yml&rsquo; and add the above content. save the file, but <!-- raw HTML omitted -->do not<!-- raw HTML omitted --> yet push the changes.</p>
+<p>navigate back to your github directory. click on the &lsquo;settings&rsquo; tab with the gear icon next to it. under the section entitled &lsquo;security&rsquo;, navigate to &lsquo;secrets and variables&rsquo;. from the dropdown, select &lsquo;actions&rsquo;. next, you&rsquo;ll want to copy your private key from earlier into a repository secret and name it SSH_PRIVATE_KEY.</p>
+<hr>
+<h3 id="step-7-putting-it-all-together">step 7.) putting it all together</h3>
+<p>so far we have:</p>
+<ul>
+<li>created an uberspace account</li>
+<li>created a github repo (with the cli or the website gui)</li>
+<li>generated a pair of ssh keys</li>
+<li>added the public ssh key value to the uberspace account</li>
+<li>added the private ssh key value to the github account secrets</li>
+<li>configured a github action that will copy the contents of the &lsquo;public&rsquo; folder in the hugo project directory to the appropriate spot on the uberspace asteroid</li>
+</ul>
+<p>now the last step is to cross your fingers, and <code>git push</code> the local repository to the github repo. this should trigger the github action, which in turn copies those files to the uberspace public directory. to see the github action in&hellip;action&hellip;simply navigate to the &lsquo;actions&rsquo; tab and view your run. if it was successful, a green check mark will be next to it.</p>
+<p>next, you can navigate to your asteroid - something like <!-- raw HTML omitted -->USER.uber.space<!-- raw HTML omitted --> - to see your site in action.</p>
+<p>thanks for your considerable time investment.</p>
+<ul>
+<li>fox</li>
+</ul>
+
+
+
+        <div class="footer">
+    Powered by <a href="https://gohugo.io/">Hugo</a> with
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+</div>
+
+    </div>
+  </body>
+</html>
