@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on foxhole</title>
+    <link>foxx.uber.space/photos/</link>
+    <description>Recent content in Photos on foxhole</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="foxx.uber.space/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warsaw, Poland</title>
+      <link>foxx.uber.space/photos/warsaw-poland/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>foxx.uber.space/photos/warsaw-poland/</guid>
+      <description>&lt;p&gt;this is where landscapes reside.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post Malone Halloween Shoot</title>
+      <link>foxx.uber.space/photos/pets/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>foxx.uber.space/photos/pets/</guid>
+      <description>&lt;p&gt;I sincerely enjoy taking photographs of pets. I find they often like posing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hel, Poland</title>
+      <link>foxx.uber.space/photos/hel-poland-3/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>foxx.uber.space/photos/hel-poland-3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Hel_Peninsula&amp;amp;oldid=939640541&#34;&gt;Hel Peninsula&lt;/a&gt; (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea.&#xA;The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
