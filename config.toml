@@ -4,6 +4,14 @@ title = 'foxhole'
 theme = "hugo-theme-console"
 hugo_cache = '/home/foxx/tmp'
 publishDir = '/var/www/virtual/foxx/html'
+enableGitInfo = true
+
+
+[frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  expiryDate = ['expirydate', 'unpublishdate']
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+  publishDate = ['publishdate', 'pubdate', 'published', 'date']
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
