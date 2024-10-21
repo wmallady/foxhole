@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>foxhole</title>
-    <link>foxx.uber.space/</link>
+    <link>/</link>
     <description>Recent content on foxhole</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Oct 2024 10:02:31 -0400</lastBuildDate>
-    <atom:link href="foxx.uber.space/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Oct 2024 11:15:29 -0400</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>foxx.uber.space/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you need to reach me: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt; [GitHub][https://github.com/wmallady]&#xA; [LinkedIn][https://www.linkedin.com/in/william-mallady-45914816a/]&#xA; [Mastodon][https://mastodon.social/@FoxTheHuman]&#xA; [Resume][https://github.com/wmallady/resume]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Warsaw, Poland</title>
-      <link>foxx.uber.space/photos/warsaw-poland/</link>
+      <link>/photos/warsaw-poland/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/photos/warsaw-poland/</guid>
+      <guid>/photos/warsaw-poland/</guid>
       <description>&lt;p&gt;this is where landscapes reside.&lt;/p&gt;</description>
     </item>
     <item>
       <title>welcome</title>
-      <link>foxx.uber.space/posts/introduction/</link>
+      <link>/posts/introduction/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/posts/introduction/</guid>
+      <guid>/posts/introduction/</guid>
       <description>&lt;h2 id=&#34;welcome&#34;&gt;welcome&lt;/h2&gt;&#xA;&lt;p&gt;hello and welcome to the foxhole. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is my personal blog dedicated to showcasing my projects and photographs. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;I appreciate you stopping by. If you like it, stop by often. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;--fox&#34;&gt;- fox&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Post Malone Halloween Shoot</title>
-      <link>foxx.uber.space/photos/pets/</link>
+      <link>/photos/pets/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/photos/pets/</guid>
+      <guid>/photos/pets/</guid>
       <description>&lt;p&gt;I sincerely enjoy taking photographs of pets. I find they often like posing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hel, Poland</title>
-      <link>foxx.uber.space/photos/hel-poland-3/</link>
+      <link>/photos/hel-poland-3/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/photos/hel-poland-3/</guid>
+      <guid>/photos/hel-poland-3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Hel_Peninsula&amp;amp;oldid=939640541&#34;&gt;Hel Peninsula&lt;/a&gt; (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea.&#xA;The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>foxx.uber.space/posts/projects/</link>
+      <link>/posts/projects/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/posts/projects/</guid>
+      <guid>/posts/projects/</guid>
       <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
     </item>
   </channel>

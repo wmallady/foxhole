@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on foxhole</title>
-    <link>foxx.uber.space/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on foxhole</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="foxx.uber.space/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>welcome</title>
-      <link>foxx.uber.space/posts/introduction/</link>
+      <link>/posts/introduction/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/posts/introduction/</guid>
+      <guid>/posts/introduction/</guid>
       <description>&lt;h2 id=&#34;welcome&#34;&gt;welcome&lt;/h2&gt;&#xA;&lt;p&gt;hello and welcome to the foxhole. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is my personal blog dedicated to showcasing my projects and photographs. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;I appreciate you stopping by. If you like it, stop by often. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;--fox&#34;&gt;- fox&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>foxx.uber.space/posts/projects/</link>
+      <link>/posts/projects/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>foxx.uber.space/posts/projects/</guid>
+      <guid>/posts/projects/</guid>
       <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
     </item>
   </channel>
