@@ -11,8 +11,6 @@ despite the numerous guides online, including in uberspace's wonderful [document
 
 what I ended up going with was an amalgam of different approaches, and I will outline them coherently here. <br>
 
-Use this as a start, and create a md file with the following information. please do not capitalize except the word "I". 
-
 ---
 
 ### step 1.) create an uberspace asteroid at [uberspace](https://uberspace.de/en/)
