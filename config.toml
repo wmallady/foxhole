@@ -1,4 +1,4 @@
-baseURL = 'foxx.uber.space'
+baseURL = ''
 languageCode = 'en-us'
 title = 'foxhole'
 theme = "hugo-theme-console"
