@@ -1,7 +1,9 @@
-baseurl = "https://example.com/"
-title = "console-demo"
+baseURL = 'foxx.uber.space'
+languageCode = 'en-us'
+title = 'foxhole'
 theme = "hugo-theme-console"
-languageCode = "en-us"
+hugo_cache = '/home/foxx/tmp'
+publishDir = '/var/www/virtual/foxx/html'
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
