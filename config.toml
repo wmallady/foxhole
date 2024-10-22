@@ -34,8 +34,8 @@ enableGitInfo = true
   url = "photos/"
 
   [[params.navlinks]]
-  name = "projects/"
-  url = "posts/projects"
+  name = "posts/projects/"
+  url = "posts/projects/"
 
 
   
