@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on foxhole</title>
+    <title>posts on foxhole</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on foxhole</description>
-    <generator>Hugo</generator>
+    <description>Recent content in posts on foxhole</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>/posts/projects/hugo_cicd/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/projects/hugo_cicd/</guid>
-      <description>&lt;p&gt;the goal: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful &lt;a href=&#34;https://manual.uberspace.de/&#34;&gt;documentation&lt;/a&gt;, nothing seemed to work for me correctly. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>the goal: build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful documentation, nothing seemed to work for me correctly. what I ended up going with was an amalgam of different approaches, and I will outline them coherently here.</description>
     </item>
     <item>
       <title>welcome</title>
       <link>/posts/introduction/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/introduction/</guid>
-      <description>&lt;h2 id=&#34;welcome&#34;&gt;welcome&lt;/h2&gt;&#xA;&lt;p&gt;hello and welcome to the foxhole. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is my personal blog dedicated to showcasing my projects and photographs. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;I appreciate you stopping by. If you like it, stop by often. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;--fox&#34;&gt;- fox&lt;/h1&gt;</description>
+      <description>welcome hello and welcome to the foxhole. this is my personal blog dedicated to showcasing my projects and photographs. I appreciate you stopping by. If you like it, stop by often. - fox </description>
     </item>
   </channel>
 </rss>

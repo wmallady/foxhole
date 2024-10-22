@@ -4,7 +4,7 @@
     <title>foxhole</title>
     <link>/</link>
     <description>Recent content on foxhole</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2024 16:42:20 -0400</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,21 @@
       <link>/about/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/about/</guid>
-      <description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you need to reach me: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;a href=&#34;https://github.com/wmallady&#34;&gt;GitHub&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&#xA; &lt;a href=&#34;https://www.linkedin.com/in/william-mallady-45914816a/&#34;&gt;LinkedIn&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&#xA; &lt;a href=&#34;https://mastodon.social/@FoxTheHuman&#34;&gt;Mastodon&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&#xA; &lt;a href=&#34;https://github.com/wmallady/resume&#34;&gt;Resume&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>Hello!&#xA;I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. If you need to reach me: GitHub LinkedIn Mastodon Resume</description>
     </item>
     <item>
       <title>Hugo Site CI/CD</title>
       <link>/posts/projects/hugo_cicd/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/projects/hugo_cicd/</guid>
-      <description>&lt;p&gt;the goal: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful &lt;a href=&#34;https://manual.uberspace.de/&#34;&gt;documentation&lt;/a&gt;, nothing seemed to work for me correctly. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>the goal: build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful documentation, nothing seemed to work for me correctly. what I ended up going with was an amalgam of different approaches, and I will outline them coherently here.</description>
     </item>
     <item>
       <title>welcome</title>
       <link>/posts/introduction/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/introduction/</guid>
-      <description>&lt;h2 id=&#34;welcome&#34;&gt;welcome&lt;/h2&gt;&#xA;&lt;p&gt;hello and welcome to the foxhole. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;this is my personal blog dedicated to showcasing my projects and photographs. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;I appreciate you stopping by. If you like it, stop by often. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;--fox&#34;&gt;- fox&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Post Malone Halloween Shoot</title>
-      <link>/photos/pets/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/photos/pets/</guid>
-      <description>&lt;p&gt;I sincerely enjoy taking photographs of pets. I find they often like posing.&lt;/p&gt;</description>
+      <description>welcome hello and welcome to the foxhole. this is my personal blog dedicated to showcasing my projects and photographs. I appreciate you stopping by. If you like it, stop by often. - fox </description>
     </item>
   </channel>
 </rss>

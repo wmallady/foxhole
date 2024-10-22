@@ -36,4 +36,9 @@ enableGitInfo = true
   [[params.navlinks]]
   name = "projects/"
   url = "posts/projects"
+
+  [[params.navlinks]]
+  name = "pets/"
+  url = "photos/pets"
+
   
