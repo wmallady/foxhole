@@ -22,20 +22,20 @@ enableGitInfo = true
   animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
-  name = "about/"
-  url = "about/"
+  name = "/about/"
+  url = "/about/"
 
   [[params.navlinks]]
-  name = "posts/"
-  url = "posts/"
+  name = "/posts/"
+  url = "/posts/"
   
   [[params.navlinks]]
-  name = "photos/"
-  url = "photos/"
+  name = "/photos/"
+  url = "/photos/"
 
   [[params.navlinks]]
-  name = "posts/projects/"
-  url = "posts/projects/"
+  name = "/posts/projects/"
+  url = "/posts/projects/"
 
 
   
