@@ -1,6 +1,6 @@
 +++
 image="peek-a-boo.jpg"
-date="2024-08-25"
+date="2024-10-26"
 title="peek-a-boo"
 type="gallery"
 +++
