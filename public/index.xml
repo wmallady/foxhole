@@ -6,7 +6,7 @@
     <description>Recent content on foxhole</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2024 16:51:05 -0500</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>baby-and-toys</title>
@@ -170,25 +170,11 @@
       <description></description>
     </item>
     <item>
-      <title>About Me</title>
-      <link>/about/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
-      <description>Hello!&#xA;I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. If you need to reach me: GitHub LinkedIn Mastodon Resume</description>
-    </item>
-    <item>
       <title>Hugo Site CI/CD</title>
       <link>/posts/projects/hugo_cicd/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/projects/hugo_cicd/</guid>
       <description>the goal: build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful documentation, nothing seemed to work for me correctly. what I ended up going with was an amalgam of different approaches, and I will outline them coherently here.</description>
-    </item>
-    <item>
-      <title>welcome</title>
-      <link>/posts/introduction/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/introduction/</guid>
-      <description>welcome hello and welcome to the foxhole. this is my personal blog dedicated to showcasing my projects and photographs. I appreciate you stopping by. If you like it, stop by often. - fox </description>
     </item>
     <item>
       <title>bella-leaves</title>
