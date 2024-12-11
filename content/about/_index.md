@@ -5,7 +5,7 @@ title = "About Me"
 
 Hello! 
 
-I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers. <br>
+I am a programmer based in Michigan. I enjoy photography and fiddling too much with computers, cameras and sometimes radios.  <br>
 
 If you need to reach me: <br>
 
