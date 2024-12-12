@@ -9,6 +9,9 @@ I am a programmer based in Michigan. I enjoy photography and fiddling too much w
 
 If you need to reach me: <br>
 
+
+&emsp;[Phone](815-573-8244) <br>
+&emsp;[Email](wmallady@gmail.com) <br>
 &emsp;[GitHub](https://github.com/wmallady) <br>
 &emsp;[LinkedIn](https://www.linkedin.com/in/william-mallady-45914816a/) <br>
 &emsp;[Mastodon](https://mastodon.social/@FoxTheHuman) <br>
