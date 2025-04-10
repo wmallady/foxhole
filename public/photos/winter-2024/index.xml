@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Winter 2024/25 on foxhole</title>
+    <link>/photos/winter-2024/</link>
+    <description>Recent content in Winter 2024/25 on foxhole</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/photos/winter-2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BB-&amp;-Cat</title>
+      <link>/photos/winter-2024/bb--cat/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2024/bb--cat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WHUT</title>
+      <link>/photos/winter-2024/whut/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2024/whut/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
