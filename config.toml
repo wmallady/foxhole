@@ -34,5 +34,11 @@ enableGitInfo = true
   url = "/photos/"
 
 
+  [[params.navlinks]]
+  name = "/fall-2024"
+  url = "/photos/fall-2024/"
 
+  [[params.navlinks]]
+  name = "/winter-2024-25"
+  url = "/photos/winter-2024-2025/"
   
