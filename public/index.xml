@@ -4,10 +4,87 @@
     <title>foxhole</title>
     <link>/</link>
     <description>Recent content on foxhole</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 16:51:05 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Naps</title>
+      <link>/photos/winter-2025/post-naps/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2025/post-naps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BB-&amp;-Momma</title>
+      <link>/photos/winter-2025/bb--momma/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2025/bb--momma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devour</title>
+      <link>/photos/winter-2025/devour/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2025/devour/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hey-kid</title>
+      <link>/photos/winter-2025/hey-kid/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2025/hey-kid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No-Fuckboys</title>
+      <link>/photos/winter-2025/no-fuckboys/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2025/no-fuckboys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Magpie-Contemplates</title>
+      <link>/photos/winter-2025/magpie-contemplates/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2025/magpie-contemplates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BB-&amp;-Cat</title>
+      <link>/photos/winter-2024/bb--cat/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2024/bb--cat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WHUT</title>
+      <link>/photos/winter-2024/whut/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/winter-2024/whut/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>thanksgiving-charcuterie</title>
+      <link>/photos/fall-2024/thanksgiving-charcuterie/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/fall-2024/thanksgiving-charcuterie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big-eyes</title>
+      <link>/photos/fall-2024/big-eyes/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/fall-2024/big-eyes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big-stretchies</title>
+      <link>/photos/fall-2024/big-stretchies/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/photos/fall-2024/big-stretchies/</guid>
+      <description></description>
+    </item>
     <item>
       <title>baby-and-toys</title>
       <link>/photos/fall-2024/baby-and-toys/</link>
@@ -174,7 +251,7 @@
       <link>/posts/projects/hugo_cicd/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/projects/hugo_cicd/</guid>
-      <description>the goal: build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful documentation, nothing seemed to work for me correctly. what I ended up going with was an amalgam of different approaches, and I will outline them coherently here.</description>
+      <description>&lt;p&gt;the goal: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful &lt;a href=&#34;https://manual.uberspace.de/&#34;&gt;documentation&lt;/a&gt;, nothing seemed to work for me correctly. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>bella-leaves</title>
@@ -188,6 +265,13 @@
       <link>/photos/fall-2022/derp-magpie/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/photos/fall-2022/derp-magpie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/projects/photo_sorter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/projects/photo_sorter/</guid>
       <description></description>
     </item>
   </channel>

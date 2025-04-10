@@ -4,15 +4,23 @@
     <title>posts on foxhole</title>
     <link>/posts/</link>
     <description>Recent content in posts on foxhole</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Site CI/CD</title>
       <link>/posts/projects/hugo_cicd/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/posts/projects/hugo_cicd/</guid>
-      <description>the goal: build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful documentation, nothing seemed to work for me correctly. what I ended up going with was an amalgam of different approaches, and I will outline them coherently here.</description>
+      <description>&lt;p&gt;the goal: &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; build a hugo site locally, create a github repo to store it, and set up ci/cd so that when I push the repo it automatically publishes to my uberspace asteroid and is accessible from a browser. &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;despite the numerous guides online, including in uberspace&amp;rsquo;s wonderful &lt;a href=&#34;https://manual.uberspace.de/&#34;&gt;documentation&lt;/a&gt;, nothing seemed to work for me correctly. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/projects/photo_sorter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/projects/photo_sorter/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
