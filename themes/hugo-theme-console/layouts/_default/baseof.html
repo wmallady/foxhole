@@ -37,10 +37,10 @@
               {{ $path := "" }}
               <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~# 
               {{ range $index, $element := (split $url "/") }}
-              {{ if ne $element "" }}
-                {{ $path = printf "%s/%s" $path $element }}
-                <a href="{{ $path | absURL }}">{{ $element }}</a>{{ if lt (add $index 1) (len (split $url "/")) }}/{{ end }}
-              {{ end }}
+                {{ if ne $element "" }}
+                  {{ $path = printf "%s/%s" $path $element }}
+                  <a href="{{ $path | absURL }}">{{ $element }}</a>{{ if lt (add $index 1) (len (split $url "/") | sub 1) }}/{{ end }}
+                {{ end }}
               {{ end }}
             </div>
           </header>
